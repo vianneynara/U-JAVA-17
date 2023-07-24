@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Section 10/learning/Array Lists/Array Lists.iml" filepath="$PROJECT_DIR$/Section 10/learning/Array Lists/Array Lists.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Section 9/learning/ArrayReferences/ArrayReferences.iml" filepath="$PROJECT_DIR$/Section 9/learning/ArrayReferences/ArrayReferences.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Section 10/Autoboxing Challenge/Autoboxing Challenge.iml" filepath="$PROJECT_DIR$/Section 10/Autoboxing Challenge/Autoboxing Challenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Section 10/Banking Application Challenge/Banking Application Challenge.iml" filepath="$PROJECT_DIR$/Section 10/Banking Application Challenge/Banking Application Challenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Section 8/challenges/Bed Room/Bed Room.iml" filepath="$PROJECT_DIR$/Section 8/challenges/Bed Room/Bed Room.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Section 8/challenges/Bill Burger Restaurant/Bill Burger Restaurant.iml" filepath="$PROJECT_DIR$/Section 8/challenges/Bill Burger Restaurant/Bill Burger Restaurant.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Section 8/challenges/Burger Orders/Burger Orders.iml" filepath="$PROJECT_DIR$/Section 8/challenges/Burger Orders/Burger Orders.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Section 8/challenges/Car Challenge/Car Challenge.iml" filepath="$PROJECT_DIR$/Section 8/challenges/Car Challenge/Car Challenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Section 8/challenges/Car Polymorphism/Car Polymorphism.iml" filepath="$PROJECT_DIR$/Section 8/challenges/Car Polymorphism/Car Polymorphism.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Section 9/challenges/DescendingIntegers/DescendingIntegers.iml" filepath="$PROJECT_DIR$/Section 9/challenges/DescendingIntegers/DescendingIntegers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java 17 Masterclass.iml" filepath="$PROJECT_DIR$/.idea/Java 17 Masterclass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Section 8/challenges/Kitchen IoT/Kitchen IoT.iml" filepath="$PROJECT_DIR$/Section 8/challenges/Kitchen IoT/Kitchen IoT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Section 10/learning/Linked List/Linked List.iml" filepath="$PROJECT_DIR$/Section 10/learning/Linked List/Linked List.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Section 9/challenges/MinimumElement/MinimumElement.iml" filepath="$PROJECT_DIR$/Section 9/challenges/MinimumElement/MinimumElement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Section 10/Mobile Phone Challenge/Mobile Phone Challenge.iml" filepath="$PROJECT_DIR$/Section 10/Mobile Phone Challenge/Mobile Phone Challenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Section 8/learning/Movie Polymorphism/Movie Polymorphism.iml" filepath="$PROJECT_DIR$/Section 8/learning/Movie Polymorphism/Movie Polymorphism.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Section 9/learning/MultiDimensionalArray/MultiDimensionalArray.iml" filepath="$PROJECT_DIR$/Section 9/learning/MultiDimensionalArray/MultiDimensionalArray.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Section 8/learning/Player Encapsulation/Player Encapsulation.iml" filepath="$PROJECT_DIR$/Section 8/learning/Player Encapsulation/Player Encapsulation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Section 10/Playlist Challenge/Playlist Challenge.iml" filepath="$PROJECT_DIR$/Section 10/Playlist Challenge/Playlist Challenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Section 8/challenges/Printer Encapsulation/Printer Encapsulation.iml" filepath="$PROJECT_DIR$/Section 8/challenges/Printer Encapsulation/Printer Encapsulation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Section 9/challenges/ReverseArray/ReverseArray.iml" filepath="$PROJECT_DIR$/Section 9/challenges/ReverseArray/ReverseArray.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Section 3-4/Section 3-4.iml" filepath="$PROJECT_DIR$/Section 3-4/Section 3-4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Section 5/Section 5.iml" filepath="$PROJECT_DIR$/Section 5/Section 5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Section 6/Section 6.iml" filepath="$PROJECT_DIR$/Section 6/Section 6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Section 7/Section 7.iml" filepath="$PROJECT_DIR$/Section 7/Section 7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Section 8/learning/TryingPackages/TryingPackages.iml" filepath="$PROJECT_DIR$/Section 8/learning/TryingPackages/TryingPackages.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Section 9/learning/TwoDimensionalArrays/TwoDimensionalArrays.iml" filepath="$PROJECT_DIR$/Section 9/learning/TwoDimensionalArrays/TwoDimensionalArrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Section 9/learning/VarArgs/VarArgs.iml" filepath="$PROJECT_DIR$/Section 9/learning/VarArgs/VarArgs.iml" />
+    </modules>
+  </component>
+</project>
