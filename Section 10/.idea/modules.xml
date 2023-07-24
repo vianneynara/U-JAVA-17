@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/learning/Array Lists/Array Lists.iml" filepath="$PROJECT_DIR$/learning/Array Lists/Array Lists.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Autoboxing Challenge/Autoboxing Challenge.iml" filepath="$PROJECT_DIR$/Autoboxing Challenge/Autoboxing Challenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Banking Application Challenge/Banking Application Challenge.iml" filepath="$PROJECT_DIR$/Banking Application Challenge/Banking Application Challenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learning/Linked List/Linked List.iml" filepath="$PROJECT_DIR$/learning/Linked List/Linked List.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lists, Iterator, Autoboxing.iml" filepath="$PROJECT_DIR$/Lists, Iterator, Autoboxing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mobile Phone Challenge/Mobile Phone Challenge.iml" filepath="$PROJECT_DIR$/Mobile Phone Challenge/Mobile Phone Challenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Playlist Challenge/Playlist Challenge.iml" filepath="$PROJECT_DIR$/Playlist Challenge/Playlist Challenge.iml" />
+    </modules>
+  </component>
+</project>

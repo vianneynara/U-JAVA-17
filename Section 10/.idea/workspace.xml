@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5bd9736e-22e9-4b3e-8701-7d358f513c0a" name="Changes" comment="Move challenges from a separated source." />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2OeT4K3w1l24edUGzggaHVgVWhA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "C:/Users/narwa/Developments/LearnJava/UdemyCourse/Java 17 Masterclass/Section 8",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\narwa\Developments\LearnJava\UdemyCourse\Java 17 Masterclass\Section 10\learning\Array Lists\src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="TownHopper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="challenges.TownHopper" />
+      <module name="Linked List" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="challenges.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TownHopper" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5bd9736e-22e9-4b3e-8701-7d358f513c0a" name="Changes" comment="" />
+      <created>1681919856686</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681919856686</updated>
+      <workItem from="1681919857823" duration="4717000" />
+      <workItem from="1682076405626" duration="362000" />
+      <workItem from="1682239019485" duration="51000" />
+      <workItem from="1682239246644" duration="104000" />
+      <workItem from="1682239438888" duration="15000" />
+      <workItem from="1682572340485" duration="177000" />
+      <workItem from="1683006006369" duration="5134000" />
+      <workItem from="1683016056070" duration="17000" />
+      <workItem from="1683356145703" duration="2218000" />
+      <workItem from="1683436871195" duration="2851000" />
+      <workItem from="1683527193946" duration="613000" />
+      <workItem from="1683531562269" duration="17000" />
+      <workItem from="1690196981272" duration="857000" />
+      <workItem from="1690197861067" duration="246000" />
+      <workItem from="1690198124772" duration="181000" />
+    </task>
+    <task id="LOCAL-00001" summary="Gitignore commit">
+      <created>1683008059759</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683008059759</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Files commit">
+      <created>1683008073445</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1683008073445</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Fix semantic of comment">
+      <created>1690197356186</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1690197356186</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Move challenges from a separated source.">
+      <created>1690197393319</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1690197393319</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="Gitignore commit" />
+    <MESSAGE value="Files commit" />
+    <MESSAGE value="Fix semantic of comment" />
+    <MESSAGE value="Move challenges from a separated source." />
+    <option name="LAST_COMMIT_MESSAGE" value="Move challenges from a separated source." />
+  </component>
+</project>
