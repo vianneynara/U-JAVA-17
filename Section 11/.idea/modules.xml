@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Abstract Tree/Abstract Tree.iml" filepath="$PROJECT_DIR$/Abstract Tree/Abstract Tree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Abstraction &amp; Interface.iml" filepath="$PROJECT_DIR$/Abstraction &amp; Interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Abstraction/Abstraction Learn.iml" filepath="$PROJECT_DIR$/Abstraction/Abstraction Learn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Why Interface/Interface.iml" filepath="$PROJECT_DIR$/Why Interface/Interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Abstraction Challenge/Store Front Challenge.iml" filepath="$PROJECT_DIR$/Abstraction Challenge/Store Front Challenge.iml" />
+    </modules>
+  </component>
+</project>
