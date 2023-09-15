@@ -12,10 +12,23 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bd9736e-22e9-4b3e-8701-7d358f513c0a" name="Changes" comment="Move challenges from a separated source.">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="5bd9736e-22e9-4b3e-8701-7d358f513c0a" name="Changes" comment="Added simple enumeration episode.">
+      <change afterPath="$PROJECT_DIR$/../Section 11/Abstract Tree/src/ListItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Section 11/Abstract Tree/src/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Section 11/Abstract Tree/src/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Section 11/Abstract Tree/src/NodeList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Section 11/Abstract Tree/src/SearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Section 11/Abstraction Challenge/src/ArtProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Section 11/Abstraction Challenge/src/FurnitureProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Section 11/Abstraction Challenge/src/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Section 11/Abstraction Challenge/src/ProductForSale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Section 11/Abstraction Challenge/src/Store.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Section 11/Abstraction/src/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Section 11/Abstraction/src/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Section 11/Abstraction/src/Fish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Section 11/Abstraction/src/Horse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Section 11/Abstraction/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning/Enumeration/src/Topping.java" beforeDir="false" afterPath="$PROJECT_DIR$/learning/Enumeration/src/Topping.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,10 +41,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -52,6 +68,7 @@
     "WebServerToolWindowFactoryState": "false",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
     "last_opened_file_path": "C:/Users/narwa/Developments/LearnJava/UdemyCourse/Java 17 Masterclass/Section 10",
     "node.js.detected.package.eslint": "true",
@@ -70,7 +87,14 @@
       <recent name="C:\Users\narwa\Developments\LearnJava\UdemyCourse\Java 17 Masterclass\Section 10\learning\Array Lists\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TryTheEnum">
+  <component name="RunManager">
+    <configuration name="FurinBack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FurinBack" />
+      <module name="Lists, Iterator, Autoboxing" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TownHopper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="challenges.TownHopper" />
       <module name="Linked List" />
@@ -91,12 +115,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.TryTheEnum" />
-        <item itemvalue="Application.TownHopper" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -122,7 +140,10 @@
       <workItem from="1690197861067" duration="246000" />
       <workItem from="1690198124772" duration="181000" />
       <workItem from="1690198664824" duration="279000" />
-      <workItem from="1690206381546" duration="1453000" />
+      <workItem from="1690206381546" duration="1948000" />
+      <workItem from="1691658055799" duration="724000" />
+      <workItem from="1693203160098" duration="122000" />
+      <workItem from="1693295821279" duration="147000" />
     </task>
     <task id="LOCAL-00001" summary="Gitignore commit">
       <created>1683008059759</created>
@@ -152,11 +173,29 @@
       <option name="project" value="LOCAL" />
       <updated>1690197393319</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added simple enumeration episode.">
+      <created>1690208145628</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1690208145628</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -166,6 +205,7 @@
     <MESSAGE value="Files commit" />
     <MESSAGE value="Fix semantic of comment" />
     <MESSAGE value="Move challenges from a separated source." />
-    <option name="LAST_COMMIT_MESSAGE" value="Move challenges from a separated source." />
+    <MESSAGE value="Added simple enumeration episode." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added simple enumeration episode." />
   </component>
 </project>
