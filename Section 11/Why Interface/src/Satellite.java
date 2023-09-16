@@ -25,7 +25,7 @@ public class Satellite implements OrbitEarth, Trackable {
 
     @Override
     public void track() {
-        System.out.print(getClass().getSimpleName() + "'s coordinates recorded");
+        System.out.println(getClass().getSimpleName() + "'s coordinates recorded");
     }
 
     public void transition(String description) {

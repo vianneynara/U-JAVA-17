@@ -17,6 +17,6 @@ public class Jet implements FlightEnabled, Trackable {
 
     @Override
     public void track() {
-        System.out.print(getClass().getSimpleName() + "'s coordinates recorded");
+        System.out.println(getClass().getSimpleName() + "'s coordinates recorded");
     }
 }
