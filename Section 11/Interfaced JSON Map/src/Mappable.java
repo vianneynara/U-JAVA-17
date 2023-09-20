@@ -11,13 +11,13 @@ enum LineMarkers {
 }
 
 enum PointMarkers {
-    CIRCLE, DIAMOND, RECTANGLE, TRIANGLE, PUSH_PIN, STAR
+    CIRCLE, DIAMOND, SQUARE, TRIANGLE, PUSH_PIN, STAR
 }
 
 public interface Mappable {
 
     String JSON_PROPERTY = """
-        "properties":{%s} """;
+        "properties": {%s} """;
 
     static void toMap(Mappable mappable) {
         System.out.println(JSON_PROPERTY.formatted(mappable.toJSON()));
@@ -25,8 +25,8 @@ public interface Mappable {
 
     default String toJSON() {
         return """
-          "type:": "%s", "label": "%s", "marker": "%s" """
-          .formatted(getShape(), getLabel(), getMarker());
+            "type:": "%s", "label": "%s", "marker": "%s" """
+            .formatted(getShape(), getLabel(), getMarker());
     }
 
     String getLabel();
