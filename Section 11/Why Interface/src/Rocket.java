@@ -1,9 +1,9 @@
 enum FlightStages implements Trackable {
-    GROUNED, LAUNCH, CRUISE, DATA_COLLECTION;
+    GROUNDED, LAUNCH, CRUISE, DATA_COLLECTION;
 
     @Override
     public void track() {
-        if (this != GROUNED)
+        if (this != GROUNDED)
             System.out.println("Monitoring " + this);
     }
 

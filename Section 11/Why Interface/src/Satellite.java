@@ -1,6 +1,6 @@
 public class Satellite implements OrbitEarth, Trackable {
 
-    FlightStages stage = FlightStages.GROUNED;
+    FlightStages stage = FlightStages.GROUNDED;
 
     @Override
     public void achieveOrbit() {
