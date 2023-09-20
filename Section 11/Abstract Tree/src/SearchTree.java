@@ -49,8 +49,8 @@ public class SearchTree implements NodeList {
             System.out.println("Deleting node " + node.getValue());
         }
 
+        ListItem parent = this.root;
         ListItem curr = this.root;
-        ListItem parent = curr;
 
         while (curr != null) {
             int diff = (curr.compareTo(node));
