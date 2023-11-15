@@ -1,11 +1,20 @@
-interface Player {}
+package intros;
 
-record BaseballPlayer(String name, String position) implements Player {};
-record FootballPlayer(String name, String position) implements Player {};
+interface Player {
+
+	String name();
+
+}
+
+record BaseballPlayer(String name, String position) implements Player {}
+record FootballPlayer(String name, String position) implements Player {}
+record VolleyballPlayer(String name, String position) implements Player {}
 
 public class Main {
 
 	public static void main(String[] args) {
+
+		var philly = new Affiliation("city", "Philadelphia, PA", "US");
 
 		BaseballTeam phillies1 = new BaseballTeam("Phillies");
 		BaseballTeam astros1 = new BaseballTeam("Astros");
@@ -15,8 +24,8 @@ public class Main {
 		SportsTeam astros2 = new SportsTeam("Astros");
 		scoreResult(phillies2, 3, astros2, 4);
 
-		Team<BaseballPlayer> phillies = new Team<>("Phillies");
-		Team<BaseballPlayer> astros = new Team<>("Astros");
+		Team<BaseballPlayer, Affiliation> phillies = new Team<>("Phillies", philly);
+		Team<BaseballPlayer, Affiliation> astros = new Team<>("Astros");
 		scoreResult(phillies, 3, astros, 4);
 
 		var harper = new BaseballPlayer("B Harper", "Right Fielder");
@@ -25,14 +34,25 @@ public class Main {
 		phillies.addTeamMember(marsh);
 		phillies.listTeamMembers();
 
-		Team<FootballPlayer> afc = new Team<>("AFC");
+		Team<FootballPlayer, Affiliation> afc = new Team<>("AFC");
 		var tex = new FootballPlayer("Tex", "Center half forward");
 		afc.addTeamMember(tex);
-//		var guthrie = new BaseballPlayer("D Guthrie", "Center half forward");
+//		var guthrie = new intros.BaseballPlayer("D Guthrie", "Center half forward");
 //		afc.addTeamMember(guthrie);
 		var rori = new FootballPlayer("F Rori", "Midfield");
 		afc.addTeamMember(rori);
 		afc.listTeamMembers();
+
+		Team<VolleyballPlayer, String> adelaide = new Team<>("Adelaide Storm", "City of Adelaide, South Australia, in AU");
+		adelaide.addTeamMember((new VolleyballPlayer("N Roberts", "Setter")));
+		adelaide.listTeamMembers();
+
+		var canberra = new Team<VolleyballPlayer, Affiliation>("Canberra Heat");
+		canberra.addTeamMember(new VolleyballPlayer("B Black", "Opposite"));
+		canberra.listTeamMembers();
+		scoreResult(canberra, 0, adelaide, 1);
+
+//		intros.Team<Integer> melbourneVM = new intros.Team<>("Melbourne Vipers");
 	}
 
 	public static void scoreResult(BaseballTeam team1, int t1_score,

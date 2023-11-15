@@ -1,19 +1,21 @@
+package intros;
+
 import java.util.ArrayList;
 import java.util.List;
 
-public class Team<T> {
+public class BaseballTeam {
 
 	private String teamName;
-	private List<T> teamMembers = new ArrayList<>();
+	private List<Player> teamMembers = new ArrayList<>();
 	private int totalWins;
 	private int totalLosses;
 	private int totalTies;
 
-	public Team(String teamName) {
+	public BaseballTeam(String teamName) {
 		this.teamName = teamName;
 	}
 
-	public void addTeamMember(T player) {
+	public void addTeamMember(Player player) {
 
 		if (!teamMembers.contains(player)) {
 			teamMembers.add(player);
@@ -21,7 +23,7 @@ public class Team<T> {
 	}
 
 	public void listTeamMembers() {
-		System.out.println(teamName + " Roster:");
+		System.out.println(teamName + " Roster: ");
 		System.out.println(teamMembers);
 	}
 

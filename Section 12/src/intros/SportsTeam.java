@@ -1,3 +1,5 @@
+package intros;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -21,7 +23,7 @@ public class SportsTeam {
 	}
 
 	public void listTeamMembers() {
-		System.out.println(teamName + " Roster:");
+		System.out.println(teamName + " Roster: ");
 		System.out.println(teamMembers);
 	}
 
