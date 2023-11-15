@@ -12,6 +12,14 @@ public abstract class Line implements Mappable {
 		this.locations = locations;
 	}
 
+	public Line(String... locations) {
+		this.locations = new double[locations.length][];
+		int i = 0;
+		for (String l : locations) {
+			this.locations[i++] = Mappable.stringToLatLon(l);
+		}
+	}
+
 	// Setters
 
 	public void setLocations(String... locations) {

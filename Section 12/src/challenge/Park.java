@@ -13,6 +13,11 @@ public class Park extends Point {
 		this.name = name;
 	}
 
+	public Park(String name, String location) {
+		super(location);
+		this.name = name;
+	}
+
 	@Override
 	public void render() {
 		System.out.print("Render " + name + " ");

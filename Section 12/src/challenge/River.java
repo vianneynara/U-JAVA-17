@@ -13,6 +13,11 @@ public class River extends Line {
 		this.name = name;
 	}
 
+	public River(String name, String... locations) {
+		super(locations);
+		this.name = name;
+	}
+
 	@Override
 	public void render() {
 		System.out.print("Render " + name + " ");

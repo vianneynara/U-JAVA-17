@@ -10,6 +10,10 @@ public abstract class Point implements Mappable {
 		this.location = location;
 	}
 
+	public Point(String location) {
+		this.location = Mappable.stringToLatLon(location);
+	}
+
 	// Setters
 
 	public void setLocation(String location) {
