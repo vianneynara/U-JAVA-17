@@ -36,8 +36,11 @@ public abstract class Line implements Mappable {
 
 	private String locations() {
 		StringBuilder sb = new StringBuilder("([");
-		for (double[] location : locations) {
-			sb.append('[').append(location[0]).append(", ").append(location[1]).append(']');
+		for (int i = 0; i < locations.length; i++) {
+			sb.append('[').append(locations[i][0]).append(", ").append(locations[i][1]).append(']');
+			if (i != locations.length - 1) {
+				sb.append(", ");
+			}
 		}
 		return sb.append("])").toString();
 	}
