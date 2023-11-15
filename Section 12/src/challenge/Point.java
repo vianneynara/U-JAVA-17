@@ -31,9 +31,9 @@ public abstract class Point implements Mappable {
 	@Override
 	public void render() {
 		if (location != null) {
-			System.out.println("POINT " + location());
+			System.out.println("type: POINT, coords: " + location());
 		} else {
-			System.out.println("POINT <COORDINATES NOT SET> ");
+			System.out.println("type: POINT, <COORDINATES NOT SET> ");
 		}
 	}
 }

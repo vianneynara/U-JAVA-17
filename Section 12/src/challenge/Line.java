@@ -57,9 +57,9 @@ public abstract class Line implements Mappable {
 	@Override
 	public void render() {
 		if (locations != null) {
-			System.out.println("LINE " + locations());
+			System.out.println("type: LINE, coords: \n\t" + locations());
 		} else {
-			System.out.println("LINE <COORDINATES NOT SET> ");
+			System.out.println("type: LINE, <COORDINATES NOT SET> ");
 		}
 	}
 }

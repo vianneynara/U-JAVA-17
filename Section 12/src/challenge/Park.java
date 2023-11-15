@@ -20,7 +20,7 @@ public class Park extends Point {
 
 	@Override
 	public void render() {
-		System.out.print("Render " + name + " ");
+		System.out.print("Rendering name: \"" + name + "\", ");
 		super.render();
 	}
 }
