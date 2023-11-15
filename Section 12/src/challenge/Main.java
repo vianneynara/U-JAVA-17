@@ -13,6 +13,7 @@ public class Main {
 			"-6.120834319309722, 106.82905592593758",
 			"-6.163546852013936, 106.83819079271895",
 			"-6.167417470197154, 106.83162125021221");
+		sungaiCiliwung.setLocations("-6.170343170532965, 106.83234340738224");
 
 		Park tamanWadukPluit = new Park("Taman Waduk Pluit");
 		tamanWadukPluit.setLocation("-6.105178688086008, 106.79637151829542");
