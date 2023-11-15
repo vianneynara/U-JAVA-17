@@ -18,7 +18,8 @@ public abstract class Line implements Mappable {
 		double[][] tempArray;
 		if (this.locations != null) {
 			tempArray = Arrays.copyOf(this.locations, this.locations.length + locations.length);
-			for (int i = this.locations.length - 1, j = 0; i < tempArray.length; i++, j++) {
+			// this loop appends the previous locations array with the new array starting from the last index + 1
+			for (int i = this.locations.length, j = 0; i < tempArray.length; i++, j++) {
 				tempArray[i] = Mappable.stringToLatLon(locations[j]);
 			}
 		} else {
