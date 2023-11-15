@@ -4,7 +4,19 @@ public abstract class Point implements Mappable {
 
 	protected double[] location;
 
+	public Point() {}
+
 	public Point(double[] location) {
+		this.location = location;
+	}
+
+	// Setters
+
+	public void setLocation(String location) {
+		this.location = Mappable.stringToLatLon(location);
+	}
+
+	public void setLocation(double[] location) {
 		this.location = location;
 	}
 
@@ -14,6 +26,10 @@ public abstract class Point implements Mappable {
 
 	@Override
 	public void render() {
-		System.out.println("POINT " + location());
+		if (location != null) {
+			System.out.println("POINT " + location());
+		} else {
+			System.out.println("POINT <COORDINATES NOT SET> ");
+		}
 	}
 }
