@@ -13,22 +13,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5bd9736e-22e9-4b3e-8701-7d358f513c0a" name="Changes" comment="Added simple enumeration episode.">
-      <change afterPath="$PROJECT_DIR$/../Section 11/Abstract Tree/src/ListItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Section 11/Abstract Tree/src/MyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Section 11/Abstract Tree/src/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Section 11/Abstract Tree/src/NodeList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Section 11/Abstract Tree/src/SearchTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Section 11/Abstraction Challenge/src/ArtProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Section 11/Abstraction Challenge/src/FurnitureProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Section 11/Abstraction Challenge/src/OrderItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Section 11/Abstraction Challenge/src/ProductForSale.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Section 11/Abstraction Challenge/src/Store.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Section 11/Abstraction/src/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Section 11/Abstraction/src/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Section 11/Abstraction/src/Fish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Section 11/Abstraction/src/Horse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Section 11/Abstraction/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Section 12/src/comparablereview/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Section 12/src/comparablereview/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +56,7 @@
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/narwa/Developments/LearnJava/UdemyCourse/Java 17 Masterclass/Section 10",
+    "last_opened_file_path": "E:/narwa/Developments/LearnJava/UdemyCourse/Java 17 Masterclass",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -87,7 +73,7 @@
       <recent name="C:\Users\narwa\Developments\LearnJava\UdemyCourse\Java 17 Masterclass\Section 10\learning\Array Lists\src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.FurinBack">
     <configuration name="FurinBack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FurinBack" />
       <module name="Lists, Iterator, Autoboxing" />
@@ -144,6 +130,7 @@
       <workItem from="1691658055799" duration="724000" />
       <workItem from="1693203160098" duration="122000" />
       <workItem from="1693295821279" duration="147000" />
+      <workItem from="1700183734804" duration="143000" />
     </task>
     <task id="LOCAL-00001" summary="Gitignore commit">
       <created>1683008059759</created>
