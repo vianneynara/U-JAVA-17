@@ -57,5 +57,54 @@ public class Main {
 		for (StoreEmployee storeEmployee : storeEmployees) {
 			System.out.println(storeEmployee);
 		}
+
+		System.out.println("Pig Latin Names");
+		addPigLatinName(storeEmployees);
+	}
+
+	public static void addPigLatinName(List<? extends StoreEmployee> list) {
+		String lastName = "Piggy";
+		class DecoratedEmployee extends StoreEmployee implements Comparable<DecoratedEmployee> {
+
+			private String pigLatinName;
+			private Employee originalInstance;
+
+			public DecoratedEmployee(String pigLatinName, Employee originalInstance) {
+				///////////////////////////////////////////////////////////////////////////////////////////////
+				//	 EVERY VARIABLE THAT ARE ACCESSED BY LOCAL CLASSES MUST BE FINAL OR EFFECTIVELY FINAL.	 //
+				//	 EFFECTIVELY FINAL MEANS THAT THE VARIABLE IS NOT DECLARED FINAL BUT IT IS NOT MODIFIED	 //
+				//	 AFTER IT IS DECLARED.																	 //
+				///////////////////////////////////////////////////////////////////////////////////////////////
+				this.pigLatinName = pigLatinName + " " + lastName;
+				this.originalInstance = originalInstance;
+			}
+
+			@Override
+			public String toString() {
+				return originalInstance.toString() + " " + pigLatinName;
+			}
+
+			@Override
+			public int compareTo(DecoratedEmployee o) {
+				return pigLatinName.compareTo(o.pigLatinName);
+			}
+		}
+
+		List<DecoratedEmployee> newList = new ArrayList<>();
+
+		for (var employee : list) {
+			String name = employee.getName();
+			String pigLatin = name.substring(1) + name.charAt(0) + "ay";
+			newList.add(new DecoratedEmployee(pigLatin, employee));
+		}
+
+		// Illegal because lastName is not final or effectively final.
+//		lastName = "Piggoy";
+
+		// passing null in sort means it will use compareTo method of the object
+		newList.sort(null);
+		for (var dEmployee : newList) {
+			System.out.println(dEmployee.originalInstance.getName() + " " + dEmployee.pigLatinName);
+		}
 	}
 }

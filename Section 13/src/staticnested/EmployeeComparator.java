@@ -2,44 +2,12 @@ package staticnested;
 
 import java.util.Comparator;
 
-public class Employee {
-
-	private int id;
-	private String name;
-	private String hireDate;
-
-	public Employee() {
-	}
-
-	public Employee(int id, String name, String hireDate) {
-		this.id = id;
-		this.name = name;
-		this.hireDate = hireDate;
-	}
-
-	public int getId() {
-		return id;
-	}
-
-	public String getName() {
-		return name;
-	}
-
-	public String getHireDate() {
-		return hireDate;
-	}
-
-	@Override
-	public String toString() {
-		return "%2s %-10s %10s".formatted(id, name, hireDate);
-	}
-
-	/**
+/**
 	 * EmployeeComparator is a static nested class used to sort employees based on their name, id, or hire date.
 	 *
 	 * @param <T> Employee or any subclass of Employee
 	 */
-	public static class EmployeeComparator<T extends Employee> implements Comparator<Employee> {
+	public class EmployeeComparator<T extends Employee> implements Comparator<Employee> {
 
 		private final String type;
 
@@ -61,4 +29,3 @@ public class Employee {
 			};
 		}
 	}
-}
