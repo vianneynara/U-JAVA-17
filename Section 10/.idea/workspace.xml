@@ -13,8 +13,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5bd9736e-22e9-4b3e-8701-7d358f513c0a" name="Changes" comment="Added simple enumeration episode.">
-      <change afterPath="$PROJECT_DIR$/../Section 12/src/comparablereview/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Section 12/src/comparablereview/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Section 11/Interface Challenge/Saving Entities.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Section 12/Generics.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Section 13/Nested Classes and Types.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Section 13/src/staticnested/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Section 13/src/staticnested/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Section 13/src/staticnested/StoreEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section 11/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Section 11/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section 11/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Section 11/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +44,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
   <component name="ProjectId" id="2OeT4K3w1l24edUGzggaHVgVWhA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -56,11 +65,13 @@
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "E:/narwa/Developments/LearnJava/UdemyCourse/Java 17 Masterclass",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/narwa/Developments/__java__/__learnjava__/UdemyCourse/Java 17 Masterclass/Section 9",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -131,6 +142,7 @@
       <workItem from="1693203160098" duration="122000" />
       <workItem from="1693295821279" duration="147000" />
       <workItem from="1700183734804" duration="143000" />
+      <workItem from="1704133761331" duration="12000" />
     </task>
     <task id="LOCAL-00001" summary="Gitignore commit">
       <created>1683008059759</created>
