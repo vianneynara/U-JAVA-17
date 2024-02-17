@@ -44,7 +44,7 @@ public class Contact {
 
 	@Override
 	public String toString() {
-		return String.format("name: %s -> {emails: %s, phones: %s}",
+		return String.format("[%s -> email: %s, phone: %s]",
 			name, emails, phones);
 	}
 
