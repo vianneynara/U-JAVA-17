@@ -11,7 +11,15 @@ public class Main {
 		Scanner scanner = new Scanner(System.in);
 
 		while (true) {
-			String direction = scanner.nextLine().trim().toUpperCase().charAt(0) + "";
+			String direction = scanner.nextLine().trim().toUpperCase();
+
+			if (direction.isEmpty()) {
+				System.out.print("Invalid direction. Please enter a valid direction: ");
+				continue;
+			}
+
+			direction = direction.substring(0, 1);
+
 			if (direction.equals("Q")) {
 				System.out.println("Thanks for playing!");
 				break;
