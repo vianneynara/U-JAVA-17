@@ -61,6 +61,10 @@ public class Contact {
 		return this;
 	}
 
+	public String getNameLastFirst() {
+		return name.substring(name.indexOf(" ") + 1) + ", " + name.substring(0, name.indexOf(" "));
+	}
+
 	@Override
 	public boolean equals(Object o) {
 		if (this == o) return true;
