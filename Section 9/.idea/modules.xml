@@ -3,11 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/learning/ArrayReferences/ArrayReferences.iml" filepath="$PROJECT_DIR$/learning/ArrayReferences/ArrayReferences.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Arrays.iml" filepath="$PROJECT_DIR$/Arrays.iml" />
       <module fileurl="file://$PROJECT_DIR$/challenges/DescendingIntegers/DescendingIntegers.iml" filepath="$PROJECT_DIR$/challenges/DescendingIntegers/DescendingIntegers.iml" />
       <module fileurl="file://$PROJECT_DIR$/challenges/MinimumElement/MinimumElement.iml" filepath="$PROJECT_DIR$/challenges/MinimumElement/MinimumElement.iml" />
       <module fileurl="file://$PROJECT_DIR$/learning/MultiDimensionalArray/MultiDimensionalArray.iml" filepath="$PROJECT_DIR$/learning/MultiDimensionalArray/MultiDimensionalArray.iml" />
       <module fileurl="file://$PROJECT_DIR$/challenges/ReverseArray/ReverseArray.iml" filepath="$PROJECT_DIR$/challenges/ReverseArray/ReverseArray.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Section 9 - Arrays.iml" filepath="$PROJECT_DIR$/Section 9 - Arrays.iml" />
       <module fileurl="file://$PROJECT_DIR$/learning/TryingSimpleArrays/TryingSimpleArrays.iml" filepath="$PROJECT_DIR$/learning/TryingSimpleArrays/TryingSimpleArrays.iml" />
       <module fileurl="file://$PROJECT_DIR$/learning/TwoDimensionalArrays/TwoDimensionalArrays.iml" filepath="$PROJECT_DIR$/learning/TwoDimensionalArrays/TwoDimensionalArrays.iml" />
       <module fileurl="file://$PROJECT_DIR$/learning/VarArgs/VarArgs.iml" filepath="$PROJECT_DIR$/learning/VarArgs/VarArgs.iml" />

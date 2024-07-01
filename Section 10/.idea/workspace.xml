@@ -13,14 +13,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5bd9736e-22e9-4b3e-8701-7d358f513c0a" name="Changes" comment="Added simple enumeration episode.">
-      <change afterPath="$PROJECT_DIR$/../Section 11/Interface Challenge/Saving Entities.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Section 12/Generics.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Section 13/Nested Classes and Types.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Section 13/src/staticnested/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Section 13/src/staticnested/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Section 13/src/staticnested/StoreEmployee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section 11/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Section 11/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section 11/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Section 11/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Section 12/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Section 13/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Section 15/Java Collections.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Section 9/Section 9 - Arrays.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lists, Iterator, Autoboxing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Section 10 - Lambda Expressions, Functional Interfaces, and Method References.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section 11/Abstraction &amp; Interface.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Section 11/Section 11 - Abstraction &amp; Interface.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section 12/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Section 12/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section 12/Generics.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Section 12/Section 12 - Generics.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section 13/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Section 13/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section 13/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Section 13/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section 13/Nested Classes and Types.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Section 13/Section 13 - Nested Classes and Types.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section 14/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Section 14/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section 14/Lambdas, Func. Interfaces, Method references.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Section 14/Section 14 - Lambda Expressions, Functional Interfaces, and Method References.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section 7/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Section 7/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section 7/OOP 1 - Inheritance.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Section 15/Section 15 - Java Collections.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section 8/.idea/OOP 2 - Polymophism.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Section 8/.idea/Section 8 - OOP 2 - Polymophism.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section 8/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Section 8/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section 9/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Section 9/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Section 9/Arrays.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Section 7/Section 7 - OOP 1 - Inheritance.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,9 +57,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2OeT4K3w1l24edUGzggaHVgVWhA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -72,7 +85,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
@@ -87,7 +100,7 @@
   <component name="RunManager" selected="Application.FurinBack">
     <configuration name="FurinBack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FurinBack" />
-      <module name="Lists, Iterator, Autoboxing" />
+      <module name="Section 10 - Lambda Expressions, Functional Interfaces, and Method References" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -112,6 +125,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -143,6 +164,8 @@
       <workItem from="1693295821279" duration="147000" />
       <workItem from="1700183734804" duration="143000" />
       <workItem from="1704133761331" duration="12000" />
+      <workItem from="1719401387320" duration="29000" />
+      <workItem from="1719401981147" duration="19000" />
     </task>
     <task id="LOCAL-00001" summary="Gitignore commit">
       <created>1683008059759</created>

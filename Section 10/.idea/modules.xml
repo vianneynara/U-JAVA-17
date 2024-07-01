@@ -7,9 +7,9 @@
       <module fileurl="file://$PROJECT_DIR$/Banking Application Challenge/Banking Application Challenge.iml" filepath="$PROJECT_DIR$/Banking Application Challenge/Banking Application Challenge.iml" />
       <module fileurl="file://$PROJECT_DIR$/learning/Enumeration/Enumeration.iml" filepath="$PROJECT_DIR$/learning/Enumeration/Enumeration.iml" />
       <module fileurl="file://$PROJECT_DIR$/learning/Linked List/Linked List.iml" filepath="$PROJECT_DIR$/learning/Linked List/Linked List.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Lists, Iterator, Autoboxing.iml" filepath="$PROJECT_DIR$/Lists, Iterator, Autoboxing.iml" />
       <module fileurl="file://$PROJECT_DIR$/Mobile Phone Challenge/Mobile Phone Challenge.iml" filepath="$PROJECT_DIR$/Mobile Phone Challenge/Mobile Phone Challenge.iml" />
       <module fileurl="file://$PROJECT_DIR$/Playlist Challenge/Playlist Challenge.iml" filepath="$PROJECT_DIR$/Playlist Challenge/Playlist Challenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Section 10 - Lambda Expressions, Functional Interfaces, and Method References.iml" filepath="$PROJECT_DIR$/Section 10 - Lambda Expressions, Functional Interfaces, and Method References.iml" />
     </modules>
   </component>
 </project>
