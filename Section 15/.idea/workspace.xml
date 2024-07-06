@@ -4,28 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d40cd3c-6d61-4fd6-9d19-2a3609cbed8f" name="Changes" comment="random: counting sort">
-      <change afterPath="$PROJECT_DIR$/../Section 12/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Section 13/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sortedmaps/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sortedmaps/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Section 9/Section 9 - Arrays.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section 10/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Section 10/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section 10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Section 10/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section 10/Lists, Iterator, Autoboxing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Section 10/Section 10 - Lambda Expressions, Functional Interfaces, and Method References.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section 11/Abstraction &amp; Interface.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Section 11/Section 11 - Abstraction &amp; Interface.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section 12/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Section 12/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section 12/Generics.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Section 12/Section 12 - Generics.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section 13/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Section 13/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section 13/Nested Classes and Types.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Section 13/Section 13 - Nested Classes and Types.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section 14/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Section 14/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section 14/Lambdas, Func. Interfaces, Method references.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Section 14/Section 14 - Lambda Expressions, Functional Interfaces, and Method References.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section 7/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Section 7/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section 7/OOP 1 - Inheritance.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Section 15 - Java Collections.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section 8/.idea/OOP 2 - Polymophism.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Section 8/.idea/Section 8 - OOP 2 - Polymophism.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section 8/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Section 8/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section 9/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Section 9/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Section 9/Arrays.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Section 7/Section 7 - OOP 1 - Inheritance.iml" afterDir="false" />
+    <list default="true" id="8d40cd3c-6d61-4fd6-9d19-2a3609cbed8f" name="Changes" comment="oopsie woopsie sucky sucky">
+      <change afterPath="$PROJECT_DIR$/src/finalchallenge/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/finalchallenge/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/finalchallenge/InventoryItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/finalchallenge/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/finalchallenge/Store.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sortedmaps/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sortedmaps/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,13 +19,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="53764" />
+    <option name="totalTimeSeconds" value="63810" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
+        <option value="Record" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -81,6 +68,7 @@
     "Application.Larik.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MapMain.executor": "Debug",
+    "Application.Store.executor": "Run",
     "Application.TestSort.executor": "Run",
     "Application.TreeSetMain.executor": "Run",
     "Application.contact.Main.executor": "Run",
@@ -122,7 +110,7 @@
       <recent name="C:\Users\narwa\Developments\__java__\__learnjava__\UdemyCourse\Java 17 Masterclass\Section 15\src\carddeck" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CountingSort">
+  <component name="RunManager" selected="Application.Store">
     <configuration name="CountingSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CountingSort" />
       <module name="Section 15 - Java Collections" />
@@ -144,19 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertionSortVsQuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="asa.InsertionSortVsQuickSort" />
-      <module name="Section 15" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="adventuregame.Main" />
+    <configuration name="Store" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="finalchallenge.Store" />
       <module name="Section 15 - Java Collections" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="adventuregame.*" />
+          <option name="PATTERN" value="finalchallenge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -205,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CountingSort" />
+        <item itemvalue="Application.Store" />
         <item itemvalue="Application.sortedmaps.Main" />
+        <item itemvalue="Application.CountingSort" />
         <item itemvalue="Application.contact.Main" />
         <item itemvalue="Application.hashcodes.hashing.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -270,6 +251,10 @@
       <workItem from="1719550607340" duration="634000" />
       <workItem from="1719597132569" duration="2601000" />
       <workItem from="1719693946360" duration="2007000" />
+      <workItem from="1719830712847" duration="1200000" />
+      <workItem from="1719987348363" duration="4079000" />
+      <workItem from="1720166815722" duration="6510000" />
+      <workItem from="1720263602793" duration="5522000" />
     </task>
     <task id="LOCAL-00001" summary="Simple card bareback system implementations using Collections">
       <option name="closed" value="true" />
@@ -343,7 +328,23 @@
       <option name="project" value="LOCAL" />
       <updated>1719695966900</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="feat: map and navigable map">
+      <option name="closed" value="true" />
+      <created>1719830822811</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1719830822811</updated>
+    </task>
+    <task id="LOCAL-00011" summary="oopsie woopsie sucky sucky">
+      <option name="closed" value="true" />
+      <created>1719831307586</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1719831307586</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -370,6 +371,8 @@
     <MESSAGE value="feat: added Colossal Cave Adventure like game&#10;&#10;This game implements maps." />
     <MESSAGE value="feat: non WNESQ keys checker" />
     <MESSAGE value="random: counting sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="random: counting sort" />
+    <MESSAGE value="feat: map and navigable map" />
+    <MESSAGE value="oopsie woopsie sucky sucky" />
+    <option name="LAST_COMMIT_MESSAGE" value="oopsie woopsie sucky sucky" />
   </component>
 </project>
